@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url(./root.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.f-f-inter {
+    font-family: 'Inter', sans-serif;
+}
+.max-width-460{
+    max-width: 460px;
+}
+.box {    
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 0px 5px 10px 0px var(--grey);
+    padding: 57px 88px 34px 88px;
+    transition: all 300ms linear;
+}
+.box:hover{
+    box-shadow: 0px 8px 15px 0px var(--grey);
+
+}
+.addbtn{
+    border: 1px solid var(--blue);
+    padding: 13px 35px;
+    border-radius: 4px;       
+    transition: all 900ms linear;  
+    background-color: var(--white); 
+}
+.addbtn:hover {    
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%) !important;
+    color: var(--white);
+}
+.save {
+    padding: 13px 45px;
+    border-radius: 4px;    
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);    
+    cursor: pointer;
+    transition: all 500ms linear;
+}
+.btn-disable {
+    background: var(--grey);
+    color: var(--white);
+    cursor: not-allowed !important;
+    opacity: 50%;
+    transition: all 500ms linear;
+}
+.reset{    
+    padding: 11px 28px;    
+    border-radius: 5px;  
+    border: 1px  solid var(--blue  ) !important;   
+    transition: all 300ms linear;   
+}
+.reset:hover{
+    background-color: var(--blue) !important;
+    color: var(--white);
+
+}
